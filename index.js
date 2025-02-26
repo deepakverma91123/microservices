@@ -33,7 +33,7 @@ for(const route in routes){
 });
 
 
-app.get('/devs', (req, res) => {
+app.get('/devsss', (req, res) => {
     res.send('Hello, this is the main server!');
 });
 
