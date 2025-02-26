@@ -32,6 +32,11 @@ for(const route in routes){
     res.send('Hello, this is the main server!');
 });
 
+
+app.get('/dev', (req, res) => {
+    res.send('Hello, this is the main server!');
+});
+
 const PORT = 5000;
 app.listen(PORT, () => {
     console.log(`Server is running on http://localhost:${PORT}`);
