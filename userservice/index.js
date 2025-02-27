@@ -5,6 +5,8 @@ app.use(express.json());
 let users = [
   { id: 1, name: "Deepak Verma", email: "deepak@@gmail.com" },
   { id: 2, name: "Neeraj", email: "neeraj@gmail.com" },
+  { id: 3, name: "Dev Neeraj", email: "devneeraj@gmail.com" },
+
 ];
 app.get('/', (req, res) => {
     res.send('Hello, this is the user services!');
